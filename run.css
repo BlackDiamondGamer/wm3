@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Fredoka', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	background-color: #121418;
+}
+
+.header{
+	width: 100%;
+	background: rgb(12, 12, 12);
+	position: relative;
+	background-size: cover;
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	width: 100%;
+}
+
+.nav {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    font-size: 15px
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.nav li a:hover {
+    color: #1C86EE;
+    font-weight: bold; 
+}
+
+.search-bar3 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e26d5c;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  box-shadow: 0.25rem 0.25rem 0rem #f0b2a8;
+
+}
+
+input {
+  margin: 0 0.5rem 0 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #e26d5c;
+  color: white;
+}
+
+::placeholder {
+  color: #f0b2a8;
+}
+
+
+h1{
+	color: #f2aa4cff;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+h2{
+    color: #00FFE0;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+p{
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 5px;
+	font-size: 20px;
+}
+
+.foot{
+	background-color: #24262b;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 90%;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 90%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrap{
+    width: 100%;
+    background: #fff;
+}
+.footer-wrap{
+    position: relative;
+    margin-top:20px; /*can edit this margin-top property when you are editing footer. */
+    width:100%;
+    padding:40px;
+    background: rgb(12, 12, 12);
+}
+.footer-wrap-1{
+    display: flex;
+}
+.footer-section{
+    width:22%;
+    display:block;
+    padding:10px 35px;
+}
+.footer-section:last-of-type{
+    width:34%;
+}
+.footer-section p{
+    color:#fff;
+    font-size: 16px;
+}
+.footer-section h1{
+    font-size:22px;
+    color:#fff;
+    margin-bottom:8px;
+}
+.footer-section a{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    padding:4px 0px;
+}
+form{
+    position:relative;
+}
+form input{
+    position:absolute;
+    height:35px;
+    width: 220px;
+    margin:8px 0px;
+    border:none;
+    outline:none;
+    padding:6px;
+    font-size:14px;
+}
+form .btn{
+    height:35px;
+    background:rgb(79, 156, 69);
+    border:none;
+    padding:0px 6px;
+    margin:8px 0px;
+    position:absolute;
+    left:60%;
+    font-weight: 600;
+    cursor: pointer;
+    color:#fff;
+}
+.btn:hover{
+    background: rgb(107,204,94);
+}
+.line{
+    margin-top:20px;
+    width:100%;
+    height:1px;;
+    background: rgb(143, 142, 142);
+}
+.social-link{
+    padding-top:25px;
+    text-align: center;
+}
+.social-link a{
+    text-decoration: none;
+    height:35px;
+    display: inline-block;
+    width:35px;
+    padding:5px;
+    border-radius:20px;
+    margin:5px;
+    background: rgb(224, 222, 222);
+}
+.social-link a img{
+    width:25px;
+    height:25px;
+}
+.footer-bottom{
+    background: rgb(5, 5, 5);
+    width:100%;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom a{
+    color:#fff;
+    font-size:14px;
+    margin-left:20px;
+    text-decoration:none;
+}
+.first-box{
+    margin-left: 20px;
+}
+.last-box{
+    margin-right:20px;
+}
+
+
+
+
